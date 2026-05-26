@@ -91,7 +91,12 @@ export default function Home() {
             <p className="text-xs text-gray-400 mb-6 leading-relaxed">
               Tell us about your buyer and we&apos;ll rewrite the materials through their lens.
             </p>
-            <InputForm onGenerate={handleGenerate} isLoading={isLoading} />
+            <InputForm
+              onGenerate={handleGenerate}
+              isLoading={isLoading}
+              journeyStages={template.buying_journey?.stages}
+              crmProvider={template.crm_config?.provider}
+            />
           </div>
         </div>
 

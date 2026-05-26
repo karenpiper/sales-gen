@@ -1,128 +1,158 @@
-// Base content for Lumina — AI-powered document intelligence platform
-// This is the raw material that gets rewritten through the customer's lens
-
 export const BASE_TEMPLATE = {
-  company: "Lumina",
-  tagline: "Intelligent Document Processing",
+  company: "AT&T Business",
+  tagline: "Enterprise Connectivity & Solutions",
   elevator_pitch:
-    "Lumina turns unstructured documents into structured, actionable data using AI — automating the manual extraction, classification, and routing work that slows down your most critical business processes.",
+    "AT&T Business brings 150+ years of network expertise to the moment enterprise connectivity matters most — when buying committees are overwhelmed by AI vendor noise and need a partner who understands their specific industry, not just their bandwidth requirements. We don't pitch technology. We translate it into outcomes your board, your IT team, and your legal team can all get behind.",
 
   value_props: [
     {
-      title: "Extract and Understand Any Document",
-      body: "Lumina reads contracts, invoices, forms, reports, and correspondence with human-level comprehension. It extracts the data you need, classifies it correctly, and flags exceptions — without templates or rules configuration.",
-      metric: "99.4% extraction accuracy across 300+ document types",
+      title: "Expert-to-Expert Engagement",
+      body: "AT&T Business matches every member of your buying group with a peer-level specialist who speaks their language. Your infrastructure lead talks to ours. Your CFO gets a CFO-caliber business case, not a spec sheet. Your legal team gets documented compliance answers, not promises. We call it nerd-to-nerd — and it's why our deals close when competitors stall.",
+      metric: "80% of enterprise buyers say industry-specific expertise is their #1 selection criterion",
     },
     {
-      title: "Plug Into the Systems You Already Use",
-      body: "Pre-built connectors for Salesforce, SAP, ServiceNow, Epic, and 80+ enterprise systems. Custom APIs for anything else. Lumina fits into your existing workflows — it doesn't ask you to rebuild them.",
-      metric: "Average deployment time: 6 weeks",
+      title: "AI-Ready Network Infrastructure",
+      body: "93% of enterprise buyers say AI is already reshaping their connectivity requirements — but most networks weren't built for it. AT&T's fiber and wireless infrastructure is purpose-engineered for the bandwidth, latency, and security demands of AI workloads, edge computing, and hybrid cloud architectures at scale.",
+      metric: "99.9% uptime SLA across our enterprise-grade fiber and wireless network",
     },
     {
-      title: "Audit-Ready and Compliant by Design",
-      body: "Every extraction decision is logged, explained, and reviewable. SOC 2 Type II, HIPAA, FedRAMP Moderate certified. Role-based access controls and full data lineage from document in to data out.",
-      metric: "Zero compliance incidents across 140 enterprise customers",
+      title: "Implementation You Can Count On",
+      body: "AT&T assigns a dedicated solutions team from first conversation through full deployment. We've documented every migration failure mode across 150 years of infrastructure experience — and built our process around avoiding them. Industry-specific playbooks mean your onboarding reflects how healthcare, retail, or financial services actually operates.",
+      metric: "97% of enterprise customers go live within committed project timeline",
     },
   ],
 
   case_studies: [
     {
-      customer: "Regional bank (Top 50 US)",
+      customer: "National Retailer (19,000 locations)",
       challenge:
-        "Loan origination team processing 4,200 loan packages per month. Each package required manual extraction from 40–60 documents. Turnaround time was 18 days on average; underwriters spent 60% of their time on data entry, not decisions.",
+        "VP of Infrastructure faced intense CEO pressure to modernize for AI after a public earnings call. Dozens of vendor pitches with no clear evaluation framework for their scale — omnichannel operations, real-time inventory AI, and PCI compliance across 19,000 stores. The buying committee was fragmented: IT wanted technical depth, Finance wanted ROI, Legal wanted compliance documentation.",
       solution:
-        "Lumina automated extraction from all document types in the loan package — income statements, tax returns, property appraisals, title documents. Integrated directly with their LOS system.",
+        "AT&T Business engaged each buying group member individually. Infrastructure deep-dive with the VP, board-level ROI narrative for the CFO, full PCI/compliance documentation package for Legal. Proposed a phased migration with dedicated implementation support and weekly milestone reporting.",
       result:
-        "Loan processing time dropped from 18 days to 4.5 days. Underwriter capacity increased 3x. $4.1M annual savings in processing costs. Zero regulatory findings in two subsequent audits.",
+        "Deployment completed 3 weeks ahead of schedule. Network downtime reduced 78%. AI-powered inventory optimization now live across all stores. Became AT&T's largest retail reference account in the region.",
     },
     {
-      customer: "National health system (12 hospitals)",
+      customer: "Regional Health System (8 hospitals, 40 clinics)",
       challenge:
-        "Prior authorization team handling 22,000 requests per month, with a 31% initial denial rate due to missing or mismatched documentation. Staff of 85 dedicated to the process.",
+        "HIPAA compliance requirements were blocking a planned telemedicine expansion. IT team was stretched thin managing existing infrastructure. Multiple vendors promised connectivity solutions but couldn't demonstrate healthcare-specific expertise or provide the compliance documentation the legal team required.",
       solution:
-        "Lumina automated extraction and completeness checking against payer rules before submission. Integrated with Epic for automated status updates and denial tracking.",
+        "AT&T's healthcare specialist team designed a dedicated private network for patient data, integrating with existing Epic and Meditech systems. Delivered a complete HIPAA compliance documentation package prepared specifically for their legal and compliance review process.",
       result:
-        "Initial denial rate dropped from 31% to 11%. Authorization cycle time reduced by 67%. Staff redeployed from data entry to exception handling and payer negotiation.",
+        "Telemedicine throughput increased 4x within 90 days of go-live. Zero HIPAA findings in the subsequent annual audit. Network operations headcount stayed flat despite adding 40 remote care sites to the infrastructure.",
     },
     {
-      customer: "Global manufacturer (Fortune 500)",
+      customer: "Top 25 US Regional Bank",
       challenge:
-        "AP team processing 180,000 invoices per year across 14 countries, in 9 languages, from 2,400 suppliers. 40% required manual intervention. Three-way match was manual.",
+        "A series of acquisitions had left the bank running four incompatible network architectures. Core banking modernization required unifying them without any disruption to 24/7 uptime requirements. The risk and compliance team had effectively held veto authority over the previous two vendor evaluations.",
       solution:
-        "Lumina automated extraction, currency normalization, and three-way match against POs and receiving documents. Exception queue reduced to only genuine discrepancies.",
+        "AT&T designed a consolidated MPLS + SD-WAN architecture with full redundancy and zero-downtime cutover windows. Provided the risk and compliance team a dedicated governance framework with contractual SLA commitments. Migration was phased across 18 months with weekly executive briefings.",
       result:
-        "$2.3M annual cost reduction. Invoice processing time from 9 days to same-day. Early payment discount capture increased 28%. Supplier disputes reduced 44%.",
+        "Network operating costs reduced 34%. Compliance team signed off in under 6 weeks — the fastest vendor approval in their procurement history. Core banking modernization project unblocked, delivering $18M in projected annual efficiency savings.",
     },
   ],
 
   speaking_points: [
     {
-      topic: "ROI",
+      topic: "ROI and Business Case",
       point:
-        "Manual document handling costs $15–25 per document when you factor in labor, errors, and rework. Lumina brings that below $1.50. For most enterprise customers, payback period is under 9 months.",
+        "Enterprise connectivity decisions stall at the CFO stage when ROI is expressed in uptime percentages rather than dollars. We build the business case from your actual cost structure — downtime cost per hour, transaction volume at risk, AI productivity multiplier, and compliance exposure. Your financial approver gets a model they can defend to the board, not a vendor estimate.",
     },
     {
-      topic: "AI accuracy",
+      topic: "Implementation Roadmap",
       point:
-        "Most document AI fails on the exceptions — handwritten fields, poor scan quality, unusual formats. That's exactly where we've invested. Our accuracy on degraded documents is 94%; industry average is under 70%.",
+        "The biggest risk in a connectivity migration isn't the technology — it's what the vendor doesn't tell you about the transition period. We give process owners a week-by-week implementation plan, dedicated change management support, and SLA commitments that are contractually binding. Scope creep and hidden complexity are the top two fears we eliminate before contract signature.",
     },
     {
-      topic: "Implementation risk",
+      topic: "Technical Architecture",
       point:
-        "We've done 140 enterprise deployments. We know where the risk is — it's in data migration and change management, not the technology. We have a proven 6-week deployment methodology and a dedicated success team.",
+        "Our solutions architects carry current credentials in the platforms you're already running. Before we propose anything, we document your current-state architecture and show exactly what changes — and what doesn't. We don't propose rip-and-replace when a targeted augmentation achieves the same outcome. Your team can verify everything we claim.",
     },
     {
-      topic: "Build vs buy",
+      topic: "Security and Compliance",
       point:
-        "Teams that try to build this internally typically spend 18–24 months and $2–4M before they have something production-ready. Then they discover they've built a point solution that can't keep up with evolving document formats or regulatory changes.",
+        "We've built compliance frameworks for healthcare, financial services, retail, and government — which means your legal and security team isn't starting from scratch. We deliver the documentation package they need to evaluate us, and we've answered every question they're likely to raise before they raise it. Legal approval typically runs 40% faster than industry average.",
     },
     {
-      topic: "Security",
+      topic: "AI Transformation Readiness",
       point:
-        "Documents contain your most sensitive business information. Lumina processes everything in your cloud tenant — nothing touches our infrastructure. We are SOC 2 Type II certified with annual third-party audits.",
+        "93% of enterprise buyers say AI is already reshaping their connectivity requirements — but most haven't updated their network contracts to reflect it. We audit your current infrastructure against projected AI workload demands and identify the gaps before a vendor failure or a board-level incident forces the conversation. This is the briefing your CTO and CIO should have before any AI initiative goes to procurement.",
+    },
+    {
+      topic: "Industry Expertise Proof",
+      point:
+        "Anyone can claim industry expertise. We prove ours by deploying vertical specialists — not generalists — who carry industry certifications, have prior operator experience in your sector, and can walk your team through how we've solved your specific problem for comparable organizations. Ask us for reference customers in your industry and your company size. We'll have them on a call within a week.",
     },
   ],
 
   stats: [
-    { number: "99.4%", label: "extraction accuracy", context: "across 300+ document types" },
-    { number: "80%+", label: "reduction in manual handling", context: "average across customers" },
-    { number: "6 weeks", label: "to production", context: "average enterprise deployment" },
-    { number: "$1.50", label: "per document cost", context: "down from $15–25 manually" },
-    { number: "140+", label: "enterprise customers", context: "across 12 industries" },
-    { number: "9 months", label: "average payback period", context: "across all deployments" },
+    { number: "93%", label: "of buyers say AI is reshaping connectivity needs", context: "AT&T Business Buyer Sentiment Survey, 2026" },
+    { number: "80%", label: "prioritize industry-specific expertise", context: "top selection criterion for enterprise providers" },
+    { number: "150+", label: "years of network infrastructure expertise", context: "since the invention of the telephone" },
+    { number: "99.9%", label: "enterprise network uptime SLA", context: "across fiber and wireless infrastructure" },
+    { number: "34%", label: "average reduction in network operating costs", context: "post-migration across enterprise customers" },
+    { number: "97%", label: "on-time delivery rate", context: "enterprise customers live within committed timeline" },
   ],
 
-  cta: "Let's map a 30-minute proof of concept to your specific document types. We'll show you what Lumina does with your actual data — no commitment, no IT involvement required.",
+  cta: "Let's set up a 45-minute expert briefing — matched to your industry and your buying team's specific roles. No pitch deck, no demo. A direct conversation between our specialists and yours about what enterprise AI readiness actually requires and where your current infrastructure stands.",
 };
 
+export const SAMPLE_TRANSCRIPT = `[Discovery call — AT&T Business AE with Marcus T., VP Infrastructure, National Retail Co.]
+
+AE: Marcus, appreciate you making time. I know you've had a lot of vendors in your inbox since the earnings call. I want to skip the pitch and just understand what you're actually dealing with. What does your infrastructure look like across the store footprint right now?
+
+Marcus: We're running a mix — MPLS to the distribution centers, broadband at the stores, and we've got some SD-WAN pilots in the Northeast that I honestly don't have enough bandwidth to properly evaluate. The CEO came out of that earnings call talking about "AI everywhere" and now I've got 14 vendors in my inbox and no way to filter any of them.
+
+AE: That's pretty much what I expected. The AI narrative is hitting retail infrastructure teams hard right now. Can I ask — when the CEO says "AI," what's the use case he's actually talking about internally? Is it inventory, customer experience, loss prevention?
+
+Marcus: All of it, honestly. Inventory optimization is the loudest one because that's where we took the hit publicly. But we also have a real-time loss prevention initiative that's been in planning for two years and keeps getting blocked because our in-store network can't support the camera and edge compute requirements.
+
+AE: The camera and edge problem is almost always a last-mile bandwidth issue plus latency. What's your current uplink at a typical store — is it a single circuit or do you have redundancy?
+
+Marcus: Single circuit at about 70% of locations. It's a legacy decision and I know it's a problem. But replacing circuits across 19,000 stores is not something I can just decide on a Tuesday.
+
+AE: Right — that's a phased conversation, not a rip-and-replace. Let me ask you a different question. When this eventually goes to your CFO for budget approval, what does she need to see to say yes?
+
+Marcus: She needs to see a number she can defend. Not "improved network performance." An actual dollar figure tied to inventory accuracy or shrink reduction. We lost real margin to shrink last year and everyone knows it.
+
+AE: We can build that model. We've done it for three other retailers in your size range. I'd want to pull in one of our retail specialists — she came out of supply chain operations before AT&T, she's done this exact analysis. Can we get her on a follow-up call with you and maybe your finance lead?
+
+Marcus: Yeah, that would actually be useful. I've had a lot of conversations with people who know networking but don't know retail. If she's got actual operations context, that's different.
+
+AE: Good. One more thing before we wrap — is your legal team going to be in this evaluation? I ask because PCI compliance at store scale is usually where deals slow down and I'd rather get them the documentation they need early.
+
+Marcus: Yes, they'll be involved. And they've killed two vendor conversations already because the security documentation wasn't there.
+
+AE: Understood. We'll bring the compliance package to the next call. Let's get something on the calendar.`;
+
 export const ROLES = [
-  "Chief Financial Officer (CFO)",
   "Chief Technology Officer (CTO)",
-  "Chief Operating Officer (COO)",
   "Chief Information Officer (CIO)",
-  "VP of Finance / Finance Director",
-  "VP of Operations",
-  "VP of Information Technology",
-  "VP of Sales / Revenue Operations",
-  "Director of Accounts Payable",
-  "Director of Shared Services",
-  "Head of Digital Transformation",
-  "Procurement Director",
+  "VP of Infrastructure / Solutions Architect",
+  "VP of Network Operations",
+  "CISO / VP of Information Security",
+  "Chief Financial Officer (CFO)",
+  "CEO / President",
+  "VP of Digital Transformation",
+  "Director of Enterprise Architecture",
+  "Director of IT Operations",
+  "General Counsel / VP Legal",
+  "VP of Procurement",
 ];
 
 export const INDUSTRIES = [
   "Financial Services / Banking",
   "Insurance",
   "Healthcare / Health Systems",
-  "Pharmaceuticals / Life Sciences",
+  "Retail / Omnichannel Commerce",
   "Manufacturing",
-  "Retail / Consumer Goods",
   "Logistics / Supply Chain",
-  "Professional Services",
   "Government / Public Sector",
-  "Real Estate",
   "Energy / Utilities",
   "Technology / SaaS",
+  "Professional Services",
+  "Media & Entertainment",
+  "Real Estate",
 ];
 
 export const STAGES = [
