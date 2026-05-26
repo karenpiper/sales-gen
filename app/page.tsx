@@ -76,6 +76,9 @@ export default function Home() {
                 {content.customer_label}
               </div>
             )}
+            <a href="/transcripts" className="text-xs text-gray-400 hover:text-gray-600 transition-colors">
+              Example Transcripts
+            </a>
             <a href="/admin" className="text-xs text-gray-400 hover:text-gray-600 transition-colors">
               Edit Content
             </a>
